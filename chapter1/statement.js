@@ -47,7 +47,7 @@ function statement (invoice, plays) {
   return result;
 }
 
-console.log(statement(invoice[0], plays));
+module.exports = statement;
 
 
 
